@@ -105,7 +105,7 @@
 //! of `libsqlite3` for your target architecture.
 //! - `postgres`: This feature enables the diesel postgres backend. Enabling this feature requires a compatible
 //! copy of `libpq` for your target architecture. This features implies `postgres_backend`
-//! - `mysql`: This feature enables the idesel mysql backend. Enabling this feature requires a compatible copy
+//! - `mysql`: This feature enables the diesel mysql backend. Enabling this feature requires a compatible copy
 //! of `libmysqlclient` for your target architecture. This feature implies `mysql_backend`
 //! - `postgres_backend`: This feature enables those parts of diesels postgres backend, that are not dependend
 //! on `libpq`. Diesel does not provide any connection implementation with only this feature enabled.
